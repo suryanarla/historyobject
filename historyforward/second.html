@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Browser Object Model</h1>
+    <p>Second Page</p>
+    <a href="third.html">third page</a>
+    <script>
+        function goForward(){
+            history.forward();
+        }
+
+        function goBackward(){
+            history.back();
+        }
+    </script>
+    <input type="button" value="forward" onclick="goForward()">
+    <input type="button" value="back" onclick="goBackward()">
+</body>
+</html>
